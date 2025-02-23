@@ -1,5 +1,14 @@
 body {
     background-color: #333333;
+    margin: 0;
+}
+
+#background-gradient {
+    width: 100vw;
+    height: 100Em;
+    background-image: linear-gradient(to top, black, #333333);
+    background-size: cover;
+    background-position: center;
 }
 
 #count {
